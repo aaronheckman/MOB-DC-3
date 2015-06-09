@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="v6E-PC-3la">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--Home-->
+        <scene sceneID="APz-37-cAq">
+            <objects>
+                <navigationController title="Home" id="v6E-PC-3la" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="yN6-OG-DG2">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="Ruw-CY-rEy"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="acb-kW-nLh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="244.5" y="-331.5"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController title="Home" id="vXZ-lx-hvc" customClass="ViewController" customModule="Week1BioApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Aaron Heckman" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mqT-Gh-V4x">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="139" y="78" width="123" height="21"/>
+                                </variation>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q09-cw-1oH">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Education">
+                                    <color key="titleColor" red="0.98555416910000004" green="0.97811866160000005" blue="0.99423926770000004" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="161" y="138" width="69" height="30"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="bLN-Ee-m9l" kind="show" id="C4U-mg-Rzc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JPL-Jz-muq">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.1564779741242236" green="0.60160195707070707" blue="0.16178455063374125" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Work Experience">
+                                    <color key="titleColor" red="0.98555416910000004" green="0.97811866160000005" blue="0.99423926770000004" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="142" y="199" width="116" height="30"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="1MC-vC-nST" kind="show" id="Ybg-Yz-bas"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2oD-7Q-Qg9">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.86462279040000001" green="0.1644162971" blue="0.15280497379999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Hobbies">
+                                    <color key="titleColor" red="0.98555416910000004" green="0.97811866160000005" blue="0.99423926770000004" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="171" y="270" width="58" height="30"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="zET-B5-LdH" kind="show" id="GaR-6k-WAW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7RB-bJ-hgi">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.38381153569288712" green="0.075989735250876475" blue="0.43609927398989901" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Appendix">
+                                    <color key="titleColor" red="0.98555416910000004" green="0.97811866160000005" blue="0.99423926770000004" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="162" y="343" width="66" height="30"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="BPY-yQ-UGB" kind="show" id="GYF-sQ-JYb"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="aaron.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="k4g-Zg-Pvt">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="36" y="434" width="328" height="175"/>
+                                </variation>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.45762867807744428" green="0.63715317814376704" blue="0.94116950757575757" alpha="0.070000000000000007" colorSpace="calibratedRGB"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="mqT-Gh-V4x"/>
+                                <exclude reference="Q09-cw-1oH"/>
+                                <exclude reference="JPL-Jz-muq"/>
+                                <exclude reference="2oD-7Q-Qg9"/>
+                                <exclude reference="7RB-bJ-hgi"/>
+                                <exclude reference="k4g-Zg-Pvt"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="mqT-Gh-V4x"/>
+                                <include reference="Q09-cw-1oH"/>
+                                <include reference="JPL-Jz-muq"/>
+                                <include reference="2oD-7Q-Qg9"/>
+                                <include reference="7RB-bJ-hgi"/>
+                                <include reference="k4g-Zg-Pvt"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" id="szO-ye-4X0"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="244.5" y="336.75"/>
+        </scene>
+        <!--Education 1-->
+        <scene sceneID="GCZ-c6-JK9">
+            <objects>
+                <viewController title="Education 1" id="bLN-Ee-m9l" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Fic-9f-ofF"/>
+                        <viewControllerLayoutGuide type="bottom" id="k3t-SC-xIO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hQc-TY-0AX">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Odyssey.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="Lan-EG-RtN">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="81" y="65" width="248" height="301"/>
+                                </variation>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FD4-4W-whO">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="College">
+                                    <color key="titleColor" red="0.98555416910000004" green="0.97811866160000005" blue="0.99423926770000004" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="166" y="577" width="52" height="30"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="hOw-cT-WDy" kind="show" id="XoV-z1-XtY"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Greece Odssey Academy Class of 2010" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="luf-jD-Sv4">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="85" y="394" width="240" height="128"/>
+                                </variation>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="Lan-EG-RtN"/>
+                                <exclude reference="FD4-4W-whO"/>
+                                <exclude reference="luf-jD-Sv4"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="Lan-EG-RtN"/>
+                                <include reference="FD4-4W-whO"/>
+                                <include reference="luf-jD-Sv4"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ryN-cc-NaI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="889.5" y="336.75"/>
+        </scene>
+        <!--Appendix-->
+        <scene sceneID="TWt-Of-m73">
+            <objects>
+                <viewController title="Appendix" id="BPY-yQ-UGB" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4H8-un-JI9"/>
+                        <viewControllerLayoutGuide type="bottom" id="r7v-8p-aAW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="z92-fK-ytr">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hkt-96-gPk">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Greece Odyssey Academy">
+                                    <color key="titleColor" red="0.98555416910000004" green="0.97811866160000005" blue="0.99423926770000004" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="109" y="90" width="182" height="30"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="bLN-Ee-m9l" kind="show" id="OYC-cI-yhG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8X7-Q8-6Lh">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.1564779741" green="0.60160195709999997" blue="0.16178455059999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Worldwide Investor Network">
+                                    <color key="titleColor" red="0.98555416910000004" green="0.97811866160000005" blue="0.99423926770000004" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="97" y="184" width="193" height="30"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="1MC-vC-nST" kind="show" id="IFW-py-9zr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dul-1s-ih1">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.86462279040000001" green="0.1644162971" blue="0.15280497379999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="WAFC">
+                                    <color key="titleColor" red="0.98555416910000004" green="0.97811866160000005" blue="0.99423926770000004" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="171" y="270" width="44" height="30"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="zET-B5-LdH" kind="show" id="VCr-ns-wJz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qtb-4N-br7">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Cornell University">
+                                    <color key="titleColor" red="0.98555416910000004" green="0.97811866160000005" blue="0.99423926770000004" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="140" y="139" width="121" height="30"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="hOw-cT-WDy" kind="show" id="uto-zb-VGo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9FO-xc-LUw">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.1564779741" green="0.60160195709999997" blue="0.16178455059999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="CEB">
+                                    <color key="titleColor" red="0.98555416910000004" green="0.97811866160000005" blue="0.99423926770000004" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="178" y="232" width="31" height="30"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="Oiy-R1-AI8" kind="show" id="IL7-IZ-PWw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aDA-wR-crd">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.86462279040000001" green="0.1644162971" blue="0.15280497379999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Swift">
+                                    <color key="titleColor" red="0.98555416910000004" green="0.97811866160000005" blue="0.99423926770000004" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="176" y="313" width="35" height="30"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="vrN-HK-GcX" kind="show" id="Mqn-Zz-ebb"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="Hkt-96-gPk"/>
+                                <exclude reference="8X7-Q8-6Lh"/>
+                                <exclude reference="dul-1s-ih1"/>
+                                <exclude reference="qtb-4N-br7"/>
+                                <exclude reference="9FO-xc-LUw"/>
+                                <exclude reference="aDA-wR-crd"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="Hkt-96-gPk"/>
+                                <include reference="8X7-Q8-6Lh"/>
+                                <include reference="dul-1s-ih1"/>
+                                <include reference="qtb-4N-br7"/>
+                                <include reference="9FO-xc-LUw"/>
+                                <include reference="aDA-wR-crd"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GpM-f0-Z4R" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="244.5" y="990.75"/>
+        </scene>
+        <!--Work 1-->
+        <scene sceneID="0jA-St-EqW">
+            <objects>
+                <viewController title="Work 1" id="1MC-vC-nST" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="HBL-AY-BM4"/>
+                        <viewControllerLayoutGuide type="bottom" id="hXX-II-Hrf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="KSx-At-U3w">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="win.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="pGu-ri-E3n">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="68" y="74" width="248" height="219"/>
+                                </variation>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Worldwide Investor Network June 2013-July 2014" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="WlW-bA-NJt">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="72" y="353" width="240" height="128"/>
+                                </variation>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3XR-b8-9QS">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.1564779741" green="0.60160195709999997" blue="0.16178455059999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Further Experience">
+                                    <color key="titleColor" red="0.98555416910000004" green="0.97811866160000005" blue="0.99423926770000004" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="142" y="465" width="130" height="30"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="Oiy-R1-AI8" kind="show" id="ZS7-4R-kFY"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="pGu-ri-E3n"/>
+                                <exclude reference="WlW-bA-NJt"/>
+                                <exclude reference="3XR-b8-9QS"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="pGu-ri-E3n"/>
+                                <include reference="WlW-bA-NJt"/>
+                                <include reference="3XR-b8-9QS"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xLW-Id-4aa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="889.5" y="990.75"/>
+        </scene>
+        <!--Hobby 1-->
+        <scene sceneID="8RI-18-RMK">
+            <objects>
+                <viewController title="Hobby 1" id="zET-B5-LdH" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3EZ-M6-i24"/>
+                        <viewControllerLayoutGuide type="bottom" id="6kp-u7-ed9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gRf-Hl-X5K">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wafc.png" translatesAutoresizingMaskIntoConstraints="NO" id="leq-8d-zFT">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="76" y="71" width="248" height="243"/>
+                                </variation>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZAU-O8-VCv">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.86462279040000001" green="0.1644162971" blue="0.15280497379999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Further Hobbies">
+                                    <color key="titleColor" red="0.98555416910000004" green="0.97811866160000005" blue="0.99423926770000004" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="145" y="448" width="111" height="30"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="vrN-HK-GcX" kind="show" id="MqZ-nb-U4l"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Washington Area Frisbee League" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="sVK-Ua-lmJ">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="76" y="322" width="240" height="128"/>
+                                </variation>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="leq-8d-zFT"/>
+                                <exclude reference="ZAU-O8-VCv"/>
+                                <exclude reference="sVK-Ua-lmJ"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="leq-8d-zFT"/>
+                                <include reference="ZAU-O8-VCv"/>
+                                <include reference="sVK-Ua-lmJ"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sNd-xr-y5u" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="889.5" y="1638.75"/>
+        </scene>
+        <!--Hobby 2-->
+        <scene sceneID="QtH-Mg-e14">
+            <objects>
+                <viewController title="Hobby 2" id="vrN-HK-GcX" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="sCA-id-zsW"/>
+                        <viewControllerLayoutGuide type="bottom" id="bdy-Kz-cEF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Yt3-v0-kjL">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="swift.png" translatesAutoresizingMaskIntoConstraints="NO" id="U8M-3t-N0u">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="98" y="69" width="204" height="207"/>
+                                </variation>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Swift" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ccN-Gi-2qE">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="69" y="308" width="240" height="128"/>
+                                </variation>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="U8M-3t-N0u"/>
+                                <exclude reference="ccN-Gi-2qE"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="U8M-3t-N0u"/>
+                                <include reference="ccN-Gi-2qE"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="r1w-f1-BH1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1545" y="1638.75"/>
+        </scene>
+        <!--Work 2-->
+        <scene sceneID="6Ur-7A-EdW">
+            <objects>
+                <viewController title="Work 2" id="Oiy-R1-AI8" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="aop-rl-Avf"/>
+                        <viewControllerLayoutGuide type="bottom" id="xSR-o8-GaQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="R95-7o-k1A">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ceb.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="taN-fe-3MK">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="76" y="59" width="248" height="230"/>
+                                </variation>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="CEB July 2014 - Present" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Lnf-iA-acv">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="80" y="312" width="240" height="128"/>
+                                </variation>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="taN-fe-3MK"/>
+                                <exclude reference="Lnf-iA-acv"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="taN-fe-3MK"/>
+                                <include reference="Lnf-iA-acv"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Aoo-Xb-Lx3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1537.5" y="990.75"/>
+        </scene>
+        <!--Education 2-->
+        <scene sceneID="pal-CH-Gvz">
+            <objects>
+                <viewController title="Education 2" id="hOw-cT-WDy" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Bjg-gs-uAB"/>
+                        <viewControllerLayoutGuide type="bottom" id="4oC-s0-8eU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="09o-Cw-AN0">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Cornell University Class of 2014" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="0OT-tA-2yV">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="55" y="464" width="240" height="128"/>
+                                </variation>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cornell.gif" translatesAutoresizingMaskIntoConstraints="NO" id="lRg-CD-Tci">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="98" y="65" width="248" height="361"/>
+                                </variation>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="0OT-tA-2yV"/>
+                                <exclude reference="lRg-CD-Tci"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="0OT-tA-2yV"/>
+                                <include reference="lRg-CD-Tci"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5cg-Ld-9lX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1537.5" y="336.75"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Odyssey.PNG" width="151" height="204"/>
+        <image name="aaron.jpg" width="337" height="337"/>
+        <image name="ceb.jpg" width="300" height="200"/>
+        <image name="cornell.gif" width="450" height="426"/>
+        <image name="swift.png" width="256" height="256"/>
+        <image name="wafc.png" width="531" height="337"/>
+        <image name="win.jpg" width="364" height="200"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="ZS7-4R-kFY"/>
+        <segue reference="Ybg-Yz-bas"/>
+        <segue reference="GaR-6k-WAW"/>
+        <segue reference="C4U-mg-Rzc"/>
+        <segue reference="MqZ-nb-U4l"/>
+        <segue reference="uto-zb-VGo"/>
+    </inferredMetricsTieBreakers>
+</document>
