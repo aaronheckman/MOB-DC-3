@@ -5,6 +5,7 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
+<<<<<<< HEAD
 	<string>44084BD7-0D38-424C-A5AB-0CC6F4E3A444</string>
 	<key>IDESourceControlProjectName</key>
 	<string>Lesson2Example</string>
@@ -15,13 +16,29 @@
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Classwork/Week 1/Lesson2Example/Lesson2Example.xcodeproj</string>
+=======
+	<string>FB21A90A-A6ED-4C01-9538-FC359BD4AB47</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BFDAA4717EEB9965546778FF65FDEFE74CECE3C5</key>
+		<string>github.com:ga-students/MOB-DC-3.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Classwork/Week 1/Lesson2Example/Lesson2Example.xcodeproj/project.xcworkspace</string>
+>>>>>>> 9d08d12c1ae6c5e9df12347153a2aba0a164c0d3
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>BFDAA4717EEB9965546778FF65FDEFE74CECE3C5</key>
 		<string>../../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
+<<<<<<< HEAD
 	<string>https://github.com/aaronheckman/MOB-DC-3.git</string>
+=======
+	<string>github.com:ga-students/MOB-DC-3.git</string>
+>>>>>>> 9d08d12c1ae6c5e9df12347153a2aba0a164c0d3
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>

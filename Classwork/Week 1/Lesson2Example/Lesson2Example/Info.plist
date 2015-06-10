@@ -7,7 +7,11 @@
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
+<<<<<<< HEAD
 	<string>com.aheckman.$(PRODUCT_NAME:rfc1034identifier)</string>
+=======
+	<string>com.Sabintsev.$(PRODUCT_NAME:rfc1034identifier)</string>
+>>>>>>> 9d08d12c1ae6c5e9df12347153a2aba0a164c0d3
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
