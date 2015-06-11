@@ -75,8 +75,12 @@ println(total)
 
 
 // Bonus TO DO: Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”.
-var fizz_count = 0
+var fizz_count = 1
 while fizz_count < 100 {
+    if fizz_count%3 == 0{
+        println("Fizz"
+    } else if fizz_count
+    
     println(fizz_count)
     fizz_count++
 }
