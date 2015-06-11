@@ -103,6 +103,22 @@
                                     <rect key="frame" x="36" y="434" width="328" height="175"/>
                                 </variation>
                             </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7m2-CH-BKX">
+                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="267" y="385" width="97" height="30"/>
+                                </variation>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2b0-L4-3iU">
+                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="28" y="385" width="97" height="30"/>
+                                </variation>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="0.45762867807744428" green="0.63715317814376704" blue="0.94116950757575757" alpha="0.070000000000000007" colorSpace="calibratedRGB"/>
                         <variation key="default">
@@ -113,6 +129,8 @@
                                 <exclude reference="2oD-7Q-Qg9"/>
                                 <exclude reference="7RB-bJ-hgi"/>
                                 <exclude reference="k4g-Zg-Pvt"/>
+                                <exclude reference="7m2-CH-BKX"/>
+                                <exclude reference="2b0-L4-3iU"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -123,6 +141,8 @@
                                 <include reference="2oD-7Q-Qg9"/>
                                 <include reference="7RB-bJ-hgi"/>
                                 <include reference="k4g-Zg-Pvt"/>
+                                <include reference="7m2-CH-BKX"/>
+                                <include reference="2b0-L4-3iU"/>
                             </mask>
                         </variation>
                     </view>
@@ -602,6 +622,6 @@
         <segue reference="GaR-6k-WAW"/>
         <segue reference="C4U-mg-Rzc"/>
         <segue reference="MqZ-nb-U4l"/>
-        <segue reference="uto-zb-VGo"/>
+        <segue reference="XoV-z1-XtY"/>
     </inferredMetricsTieBreakers>
 </document>
