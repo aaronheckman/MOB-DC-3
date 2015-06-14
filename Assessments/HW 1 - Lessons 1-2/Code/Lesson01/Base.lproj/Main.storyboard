@@ -65,19 +65,10 @@
                                         <exclude reference="SR9-Li-1On"/>
                                     </mask>
                                 </variation>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rpx-WV-3lf">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="Info">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="108" y="334" width="30" height="30"/>
+                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="137" y="236" width="129" height="128"/>
                                 </variation>
-                                <connections>
-                                    <segue destination="h13-w9-ZED" kind="show" id="Tc9-uz-wy2"/>
-                                </connections>
-                            </button>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uSf-rw-loa">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal" title="Goals">
@@ -86,8 +77,26 @@
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="260" y="329" width="40" height="30"/>
                                 </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="248" y="372" width="40" height="30"/>
+                                </variation>
                                 <connections>
                                     <segue destination="aFH-N4-nEK" kind="show" id="blD-Yn-AV3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rpx-WV-3lf">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Info">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="108" y="334" width="30" height="30"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="120" y="372" width="30" height="30"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="h13-w9-ZED" kind="show" id="Tc9-uz-wy2"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -103,8 +112,8 @@
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
-                                <exclude reference="Rpx-WV-3lf"/>
                                 <exclude reference="uSf-rw-loa"/>
+                                <exclude reference="Rpx-WV-3lf"/>
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="Ghn-g1-l4G"/>
@@ -114,8 +123,8 @@
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
-                                <include reference="Rpx-WV-3lf"/>
                                 <include reference="uSf-rw-loa"/>
+                                <include reference="Rpx-WV-3lf"/>
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="5AO-aF-6hn"/>
@@ -189,18 +198,6 @@
                                     <rect key="frame" x="89" y="207" width="224" height="21"/>
                                 </variation>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I5f-mw-wk0">
-                                <rect key="frame" x="374" y="293" width="40" height="30"/>
-                                <state key="normal" title="Goals">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="324" y="81" width="40" height="30"/>
-                                </variation>
-                                <connections>
-                                    <segue destination="aFH-N4-nEK" kind="show" id="0nC-ok-MSK"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -210,7 +207,6 @@
                                 <exclude reference="Ies-BL-nNs"/>
                                 <exclude reference="iHj-UN-k0q"/>
                                 <exclude reference="60f-Hc-cJd"/>
-                                <exclude reference="I5f-mw-wk0"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -220,7 +216,6 @@
                                 <include reference="Ies-BL-nNs"/>
                                 <include reference="iHj-UN-k0q"/>
                                 <include reference="60f-Hc-cJd"/>
-                                <include reference="I5f-mw-wk0"/>
                             </mask>
                         </variation>
                     </view>
@@ -265,18 +260,6 @@
                                     <rect key="frame" x="83" y="154" width="191" height="21"/>
                                 </variation>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3ny-7O-m3s">
-                                <rect key="frame" x="180" y="293" width="30" height="30"/>
-                                <state key="normal" title="Info">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="325" y="75" width="30" height="30"/>
-                                </variation>
-                                <connections>
-                                    <segue destination="h13-w9-ZED" kind="show" id="7dY-js-sH7"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -284,7 +267,6 @@
                                 <exclude reference="2xM-ZE-dcr"/>
                                 <exclude reference="XA1-2K-ZVO"/>
                                 <exclude reference="pW4-fK-vho"/>
-                                <exclude reference="3ny-7O-m3s"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -292,7 +274,6 @@
                                 <include reference="2xM-ZE-dcr"/>
                                 <include reference="XA1-2K-ZVO"/>
                                 <include reference="pW4-fK-vho"/>
-                                <include reference="3ny-7O-m3s"/>
                             </mask>
                         </variation>
                     </view>
@@ -371,8 +352,4 @@
         <image name="aaron.jpg" width="337" height="337"/>
         <image name="buster.png" width="1938" height="1606"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="blD-Yn-AV3"/>
-        <segue reference="Tc9-uz-wy2"/>
-    </inferredMetricsTieBreakers>
 </document>
