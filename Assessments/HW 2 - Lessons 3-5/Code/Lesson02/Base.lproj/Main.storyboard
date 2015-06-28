@@ -69,6 +69,11 @@
                                 <state key="normal" title="Generate text!">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="canDrink:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="hvX-Vn-bu8"/>
+                                    <action selector="generateText:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="R2z-Fv-CFc"/>
+                                    <action selector="printProfile:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Zrs-3L-FVE"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -90,6 +95,11 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="ageField" destination="HD3-Of-BAd" id="8fq-H1-voU"/>
+                        <outlet property="nameField" destination="dvu-Gz-gU3" id="kvG-2Y-1Jk"/>
+                        <outlet property="replaceText" destination="v2W-sh-fBn" id="Kdb-Ek-63U"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>

@@ -28,6 +28,7 @@ class ViewController: UIViewController
     func formatTextField (textField: UITextField){
         textField.keyboardType = textField == ageField ? .NumberPad : .ASCIICapable
         textField.textColor = textField == sexField ? UIColor.redColor() : UIColor.blackColor()
+        textField.font = UIFont.systemFontOfSize(18)
     }
     
     func setupTextFields() {
@@ -52,6 +53,13 @@ class ViewController: UIViewController
     @IBAction func submitAction(sender: UIButton) {
 
     }
+    
+    @IBAction func clearForm(sender: UIButton) {
+        nameField.text = ""
+        ageField.text = ""
+        sexField.text = ""
+        locationField.text = ""
+        }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         println("Prepare for Segue")
