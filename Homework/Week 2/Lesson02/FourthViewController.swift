@@ -14,20 +14,15 @@ class FourthViewController: UIViewController {
     @IBOutlet weak var label: UILabel!
     @IBOutlet weak var button: UIButton!
     
-    func fib(start: Int) -> Int {
-        if start == 0 {
-            return start
-        }
-        if start == 1 {
-            return start
-        }
-        return (fib(start - 1) + fib(start - 2))
-    }
+
     
     @IBAction func buttonAction(sender: UIButton) {
-        let number = textField.text.toInt()
-        label.text = String(fib(number!))
         
+        if let number = textField.text.toInt(){
+            let fib = FibonacciAdder()
+            let fibNumber = fib.fibonacciNumber(number)
+            label.text = "\(fibNumber)"
+        }
         
     }
     
