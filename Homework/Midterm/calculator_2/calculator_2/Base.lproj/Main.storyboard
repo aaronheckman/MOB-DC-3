@@ -87,18 +87,6 @@
                                     <action selector="appendDigit:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="nVQ-GX-GmJ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HzG-WE-oyj">
-                                <rect key="frame" x="300" y="199" width="150" height="100.5"/>
-                                <color key="backgroundColor" red="0.9178171144851629" green="0.92672821969696972" blue="0.89990831841432462" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
-                                <state key="normal" title="9">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="appendDigit:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="CtH-Ci-KWO"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="op2-3j-1Q0">
                                 <rect key="frame" x="450" y="199" width="150" height="100.5"/>
                                 <color key="backgroundColor" red="0.26219254478984433" green="0.38225178076973299" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -265,6 +253,18 @@
                                 </state>
                                 <connections>
                                     <action selector="makeNegative:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="rL9-VZ-cNe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HzG-WE-oyj">
+                                <rect key="frame" x="300" y="199" width="150" height="100.5"/>
+                                <color key="backgroundColor" red="0.9178171144851629" green="0.92672821969696972" blue="0.89990831841432462" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <state key="normal" title="9">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="appendDigit:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="CtH-Ci-KWO"/>
                                 </connections>
                             </button>
                         </subviews>

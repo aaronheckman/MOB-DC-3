@@ -90,12 +90,12 @@ class ViewController: UIViewController {
             knightButton.setTitleColor(UIColor.orangeColor(), forState: UIControlState.Normal)
             blueColorStatus = false
         } else {
-            addButton.backgroundColor = UIColor.blueColor()
-            multiplyButton.backgroundColor = UIColor.blueColor()
-            subtractButton.backgroundColor = UIColor.blueColor()
-            returnButton.backgroundColor = UIColor.blueColor()
-            divideButton.backgroundColor = UIColor.blueColor()
-            knightButton.setTitleColor(UIColor.blueColor(), forState: UIControlState.Normal)
+            addButton.backgroundColor = UIColor.magentaColor()
+            multiplyButton.backgroundColor = UIColor.magentaColor()
+            subtractButton.backgroundColor = UIColor.magentaColor()
+            returnButton.backgroundColor = UIColor.magentaColor()
+            divideButton.backgroundColor = UIColor.magentaColor()
+            knightButton.setTitleColor(UIColor.magentaColor(), forState: UIControlState.Normal)
             blueColorStatus = true
         }
     }
